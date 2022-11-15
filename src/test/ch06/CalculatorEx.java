@@ -4,7 +4,7 @@ public class CalculatorEx {
 
 	public static void main(String[] args) {
 		Calculator myCal = new Calculator();
-
+				//인스턴스:객체를 할당받은상태
 		myCal.powerOn();
 		
 		// 받아올 변수 입력
@@ -17,6 +17,13 @@ public class CalculatorEx {
 		System.out.println(result2);
 		
 		myCal.powerOff();
+		
+		double result3 = myCal.areaRectangle(10);
+		System.out.println(result3);
+		
+		double result4 = myCal.areaRectangle(10,20);
+		System.out.println(result4);
+		
 		
 
 	}

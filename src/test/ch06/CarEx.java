@@ -25,6 +25,7 @@ public class CarEx {
 		System.out.println(myCar.speed);
 		System.out.println(myCar.maxSpeed);
 		System.out.println(myCar.company);
+		System.out.println(Car.numbering);		
 		System.out.println("==========================");
 
 		// 필드 외부에서 값 변경하지
@@ -38,11 +39,16 @@ public class CarEx {
 		Car Car2 = new Car("자가용");		
 		System.out.println(Car2.model);
 		System.out.println(Car2.color);
+		System.out.println(Car2.maxSpeed);	
 		System.out.println("==========================");
+		
 		Car Car3 = new Car("자가용", "빨강");
 		System.out.println(Car3.model);
 		System.out.println(Car3.color);
 		System.out.println("==========================");
+		
+	
+		
 		
 		
 	}
