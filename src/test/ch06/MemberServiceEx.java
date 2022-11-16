@@ -5,9 +5,9 @@ public class MemberServiceEx {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		MemberService memberService = new MemberService();
+		MemberService memberService = new MemberService("hong", "12345");
 		
-		boolean result = memberService.login(" "," ");
+		boolean result = memberService.login("hong","12345");
 		
 		if(result) {
 			System.out.println("로그인 되었습니다.");
