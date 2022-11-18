@@ -1,7 +1,7 @@
 package test.ch06.hyundai;
 
 import test.ch06.hankook.SnowTire;
-import test.ch6.kumho.AllSeasonTire;
+import test.ch06.kumho.AllSeasonTire;
 
 public class Car {
 	//다른 패키지에 있는 클래스를 사용 하기위해서는 반드시 임포트를 해야함

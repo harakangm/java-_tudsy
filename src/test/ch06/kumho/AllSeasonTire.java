@@ -1,4 +1,4 @@
-package test.ch6.kumho;
+package test.ch06.kumho;
 
 public class AllSeasonTire {
 
