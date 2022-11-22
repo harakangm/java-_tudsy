@@ -14,6 +14,7 @@ public class AbastractEx {
 		animalSound(dog);
 		animalSound(cat);
 	}
+	
 	public static void animalSound(Animal animal) {
 		animal.sound();
 	}
