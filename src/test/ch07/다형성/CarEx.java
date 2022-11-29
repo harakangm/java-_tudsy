@@ -12,8 +12,6 @@ public class CarEx {
 		
 		다형성kumhotire tire2 = (다형성kumhotire)myCar.tire;
 		
-		System.out.println(tire2.a);
-		
 		myCar.run();
 		
 	}

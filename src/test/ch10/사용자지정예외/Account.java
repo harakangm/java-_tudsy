@@ -23,7 +23,7 @@ public class Account {
 	public void withdraw(int money) throws InsuffException {
 		//잔고보다 내가 출금하려는 돈이 더 크면 예외를 발생시킴
 		if (balance < money) {
-			//객체를 생성
+			//throw 예외를 강제로 발생 시킴 객체를 생성
 			throw new InsuffException("잔고 부족 " + (money - balance) + " 원이 모자람.");
 		}
 		
