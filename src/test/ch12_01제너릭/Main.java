@@ -14,7 +14,7 @@ public class Main {
 		
 		_02Tv t = product1.getKind();
 		String tmodel = product1.getModel();
-		System.out.println(t);
+		System.out.println(tmodel);
 		
 		// K는 _02Car타입 M은 스트링타입
 		_02Product<_02Car, String> product2 = new _02Product<>();
